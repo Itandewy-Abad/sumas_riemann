@@ -12,13 +12,13 @@ a = -9;
 b = 2;
 n = 100;
 %Calcula la longitud de la base del rectángulo o (Delta_x).
-Delta_x=(b-a)/n;
+base=(b-a)/n;
 %Definimos la función la altura de los rectángulos -f(a+iDelta_x).
-x =a:Delta_x:(b-base);
+x =a:base:(b-base);
 %La función representa la altura, (altura=funcion).
 altura= x.^2 + 12;
 %Calcula el área de cada rectángulo (área=base*altura).
-area = Delta_x*altura;
+area = base*altura;
 %Establece la grafica de la linea de la funcion -- linspace(Genera valores espaciados)
 %En este caso a,b,n (Los intervalos y numero de rectangulos)
 x2 = linspace(a,b,n);
@@ -37,7 +37,7 @@ hold on
 plot(x2,y2);
 
 %Asigna un nombre a la grafica 
-title("f(x) = x.^2 + 12");
+title("f(x) = x^2 + 12");
 
 %Ajusta la grafica a los datos.
 axis tight
