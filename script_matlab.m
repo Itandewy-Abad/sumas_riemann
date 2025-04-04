@@ -1,9 +1,12 @@
-% Title			:Sumatoria de Riemann Superiores e Inferiores.
-% Description		:Script para el desarrollo de Sumas de Riemann.
-% Author		:Itandewy Abad Alvarado itanabad@gmail.com
+% Title: Sumatoria de Riemann (Superiores e Inferiores).
+% Description: Script para el desarrollo de Sumas de Riemann.
+% Author: Itandewy Yamileth Abad Alvarado
+% Email: itanabad@gmail.com
+% Group: 3202
+% Subject: Cálculo Integral
 % Date: 20210705
-% Verssion: 01
-% Notes: Requiere aplicación octave usar en consola preferentemente
+% Version: 01
+% Notes: Requiere aplicación Octave, usar en consola preferentemente.
 %Nombre del Ejercicio: Sumas de Riemann
 %Limpia la pantalla y las variables
 clc, clear
